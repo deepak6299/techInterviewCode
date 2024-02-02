@@ -23,10 +23,10 @@ var dataArray = [
   { email: "intern9conqt@gmail.com", firstName: "intern3", lastName: "techcurve", phoneNumber: "7789645634", emailCategory: "HRM", registerDate: "04-29-2022" },
   { email: "intern10conqt@gmail.com", firstName: "intern3", lastName: "techcurve", phoneNumber: "7789645634", emailCategory: "HRM", registerDate: "04-29-2022" },
   { email: "intern11conqt@gmail.com", firstName: "intern3", lastName: "techcurve", phoneNumber: "7789645634", emailCategory: "HRM", registerDate: "04-29-2022" },
-  // Add more data as needed
+  
 ];
 
-// Get a reference to the table body
+
 var tableBody = document.querySelector('#dataTable tbody');
 
 // Pagination variables
@@ -47,7 +47,7 @@ function displayData() {
   for (var i = startIndex; i < endIndex; i++) {
     var data = dataArray[i];
 
-    // Create a new table row
+    // Creating a new table row
     var row = document.createElement('tr');
 
     // Add data to the table row
