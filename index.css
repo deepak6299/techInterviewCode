@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.home{
+  display: flex;
+}
+.sidebar{
+    /* background-color: aqua; */
+    width: 18%;
+    height: 100vh;
+    padding-top: 40px;
+    box-shadow: 0px 0px 10px;
+}
+.sidebarHeading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(204, 198, 198);
+    padding: 6px 0px;
+}
+ .bi{
+    margin-right: 7px;
+    background-color: #fff;
+    padding: 7px 9px;
+    border-radius: 17px;
+}
+.accordion{
+    margin-top: 35px;
+    
+}
+
+.accordion-item{
+    margin-top: 20px;
+    width: 90%;
+    margin: auto;
+    
+}
+.accordion-item button{
+    background-color: rgb(204, 198, 198) ;
+}
+.accordion-item  ul{
+   margin-left: 25px;
+  list-style: none;
+}
+
+#handletoggle{
+    background-color: white;
+}
+#handletoggle .bi{
+    background-color: rgb(204, 198, 198);
+}
+.main-section{
+    /* background-color: aqua; */
+    width: 88%;
+    padding: 51px 31px;
+    
+}
+.main-section .buttons{
+    display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.main-section button{
+
+flex-direction: row;
+   padding: 5px 22px;
+    border: none;
+    background-color: rgb(204, 198, 198) ;
+}
+
+
+/* popup style */
+
+.popup-container {
+    display: none;
+    position: fixed;
+    z-index: 999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .popup-content {
+    background-color: white;
+    margin: 8% auto;
+    padding: 20px;
+    border-radius: 5px;
+    width: 50%;
+  }
+  
+  .close-popup {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 40px;
+    cursor: pointer;
+    color: white;
+  }
+  
+  .edit{
+    
+    border-radius: 11px;
+    box-shadow: 0px 0px 3px;
+    text-align: center;
+  }
+ 
+  .edit-section{
+    display: flex;
+    justify-content: space-around;
+    order: 1px solid grey;
+    padding: 40px 31px;
+  
+   
+  }
+.edit-section .left,.right{
+    width: 40%;
+
+}
+ .inputData{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.inputData input{
+    padding: 5px 5px;
+    width: 65%;
+    background-color: rgb(234, 231, 231);
+    border: none;
+}
+
+.button-container{
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.button-container button{
+    margin-left: 35px;
+    padding: 4px 32px;
+    border-radius: 8px;margin-bottom: 10px;
+}
